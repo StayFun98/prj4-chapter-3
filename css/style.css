@@ -1,14 +1,41 @@
-.my-class {
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+#backgroundimg { 
+	background-image: url("../images/background-image.jpg");
+	background-size: cover;
+	padding-bottom: 5%;
+	margin-bottom: 10px;
+}
+.head-title {
+	color: aliceblue;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	padding-top: 40px;
+	padding-left: 50px;
+}
+.page-margin{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+#pug-img {
+ 	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+.article-title {
 	color: #FFFFFF;
 	background-color: #895D1D;
 	border: 4px dotted #D9B401;
 	text-align: center;
 	padding: 0.7em;
+	font-family: 'Montserrat', sans-serif;
 }
 .my-container {
     padding: 15px 50px 20px;
 	border: 5px solid #D9B401;
-	
+	font-family: 'Montserrat', sans-serif;
 }
 #my-id {
 	color: #BA751A;
